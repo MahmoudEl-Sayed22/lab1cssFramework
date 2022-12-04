@@ -1,0 +1,99 @@
+@media(min-width:600px){
+.parent1{
+    display:flex;
+    background-color:silver;
+    align-items: center;
+    justify-content:center ;
+    width:50%;
+    gap:0 90px;
+    height:30px;
+   
+}
+.parent2{
+        display:flex;
+        background-color:white(192, 192, 192, 0.507);
+        align-items: center;
+        justify-content:center ;
+        width:50%;
+        height:170px;  
+        margin-top: 2px;
+        gap:0 3px;
+        
+}
+.subparent1{
+    display:flex;
+    align-items: center;
+    justify-content:space-between ;
+    width:50%;
+    text-align: center;
+    border:black 2px solid;
+    height:160px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.subparent2{
+    display:flex;
+    align-items: center;
+    justify-content:space-between ;
+    width:50%;
+    border:black 2px solid;
+    height:160px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.div2{
+    background-color:silver;
+    width:100%;
+}
+}
+@media(max-width:599.999999999px){
+    .grandpa{
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+    .parent1{
+        display:flex;
+        background-color:silver;
+        align-items: center;
+        justify-content:center ;
+        width:25%;
+        gap:19px 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .parent2{
+            display:flex;
+            background-color:white(192, 192, 192, 0.507);
+            gap:3px 0;
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin-top: 2px;
+    }
+    .subparent1{
+        display:flex;
+        align-items: center;
+        justify-content:space-between ;
+        width:25%;
+        text-align: center;
+        border:black 2px solid;
+        height:160px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .subparent2{
+        display:flex;
+        align-items: center;
+        justify-content:space-between ;
+        width:25%;
+        border:black 2px solid;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    .div2{
+        background-color:silver;
+        width:100%;
+}
+}
